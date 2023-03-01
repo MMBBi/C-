@@ -1,0 +1,12 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+	char arr1[] = "abcd";
+	char arr2[] = { 'a','b','c','d','\0' };
+	printf("%d\n", strlen(arr1));
+	printf("%d\n", strlen(arr2));
+
+	return 0;//证明\0为什么是结束标志
+}
